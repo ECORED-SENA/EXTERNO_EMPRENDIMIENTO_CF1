@@ -20,33 +20,33 @@
           .col-2.col-lg-2.d-none.d-md-flex.border-top-amarillo.mt-2
           .col-1
     .row.px-5.mt-n5
-      .col-6.col-md-4.col-xl-2.px-4.px-xl-3
-        a.row.h-100.px-3.box-shadow.rounded-15.py-3.bg-blanco(href="#navegar")
+      .col-6.col-md-4.col-xl-2.px-4.px-xl-3.indicador__container
+        a.boton.row.h-100.px-3.box-shadow.rounded-15.py-3.bg-blanco(href="#navegar")
           figure.px-4.px-xl-3.d-none.d-md-flex
             img(src='@/assets/template/tema-0-2.svg', alt='Texto que describa la imagen').px-5.px-xl-3
           .h4.text-center.px-0.text-small.px-3.mt-2 ¿Cómo navegar este MOOC?
       .col-6.col-md-4.col-xl-2.px-4.px-xl-3
-        a.row.h-100.px-3.box-shadow.rounded-15.py-3.bg-blanco(href="#dirigido")
+        a.boton.row.h-100.px-3.box-shadow.rounded-15.py-3.bg-blanco(href="#dirigido")
           figure.px-4.px-xl-3.d-none.d-md-flex
             img(src='@/assets/template/tema-0-3.svg', alt='Texto que describa la imagen').px-5.px-xl-3
           .h4.text-center.px-0.text-small.px-3.mt-2 ¿A quién va dirigido?
       .col-6.col-md-4.col-xl-2.px-4.px-xl-3
-        a.row.h-100.px-3.box-shadow.rounded-15.py-3.bg-blanco(href="#competencia")
+        a.boton.row.h-100.px-3.box-shadow.rounded-15.py-3.bg-blanco(href="#competencia")
           figure.px-4.px-xl-3.d-none.d-md-flex
             img(src='@/assets/template/tema-0-4.svg', alt='Texto que describa la imagen').px-5.px-xl-3
           .h4.text-center.px-0.text-small.px-3.mt-2 ¿Cuál es la comptenecia?
       .col-6.col-md-4.col-xl-2.px-4.px-xl-3.mt-3.mt-xl-0
-        a.row.h-100.px-3.box-shadow.rounded-15.py-3.bg-blanco(href="#metodologia")
+        a.boton.row.h-100.px-3.box-shadow.rounded-15.py-3.bg-blanco(href="#metodologia")
           figure.px-4.px-xl-3.d-none.d-md-flex
             img(src='@/assets/template/tema-0-5.svg', alt='Texto que describa la imagen').px-5.px-xl-3
           .h4.text-center.px-0.text-small.px-3.mt-2.pb-xl-0 ¿Qué metodología sigue?
       .col-6.col-md-4.col-xl-2.px-4.px-xl-3.mt-3.mt-xl-0
-        a.row.h-100.px-3.box-shadow.rounded-15.py-3.bg-blanco(href="#fases")
+        a.boton.row.h-100.px-3.box-shadow.rounded-15.py-3.bg-blanco(href="#fases")
           figure.px-4.px-xl-3.d-none.d-md-flex
             img(src='@/assets/template/tema-0-6.svg', alt='Texto que describa la imagen').px-5.px-xl-3
           .h4.text-center.px-0.text-small.px-3.mt-2 ¿Cuáles son la fases del proyecto?
       .col-6.col-md-4.col-xl-2.px-4.px-xl-3.mt-3.mt-xl-0
-        a.row.h-100.px-3.box-shadow.rounded-15.py-3.bg-blanco(href="#requisitos")
+        a.boton.row.h-100.px-3.box-shadow.rounded-15.py-3.bg-blanco(href="#requisitos")
           figure.px-4.px-xl-3.d-none.d-md-flex
             img(src='@/assets/template/tema-0-7.svg', alt='Texto que describa la imagen').px-5.px-xl-3
           .h4.text-center.px-0.text-small.px-3.mt-2.pb-xl-0 ¿Qué requisitos debo cumplir?
@@ -63,7 +63,7 @@
       a.col-2.mt-4.offset-lg-2.offset-xl-3(href="#inicio")
         figure.px-lg-2.px-xl-1
           img(src='@/assets/template/arrow.svg').px-lg-4.px-xl-5
-    .row.mt-5.position-relative
+    .row.mt-5.position-relative(data-aos="fade")
       .col-5.position-absolute.mt-lg-5.d-none.d-lg-flex
         figure.mt-lg-5.mt-xl-0
           img(src='@/assets/template/tema-0-8.png', alt='Texto que describa la imagen').px-4
@@ -81,7 +81,7 @@
       a.col-2.mt-4.offset-lg-3.offset-xl-4(href="#inicio")
         figure.px-lg-2.px-xl-1
           img(src='@/assets/template/arrow.svg').px-lg-4.px-xl-5
-    .row.mt-5
+    .row.mt-5(data-aos="flip-left")
       .col.col-lg-8
         .h4 Competencia
         p.mt-4 Comprende las competencias del emprendedor para construir un modelo de negocio acorde con la tecnología digital seleccionada.
@@ -101,7 +101,7 @@
         figure.px-lg-2.px-xl-1
           img(src='@/assets/template/arrow.svg').px-lg-4.px-xl-5
     p.mt-5 En este MOOC se emplean las siguientes metodologías de trabajo:
-    .row.mt-4.px-4
+    .row.mt-4.px-4(data-aos="slide-left")
       .col-5.d-none.d-xl-flex.align-self-center
         figure
           img(src='@/assets/template/tema-0-10.png', alt='Texto que describa la imagen')
@@ -110,37 +110,37 @@
           .col-11.col-lg-10.offset-1.offset-lg-2.position-relative.px-4.border-right-azul-4
             .h4 Autodirección del aprendizaje
             p.mt-3 De manera que puedes recorrer los contenidos y realizar la mayoría de las actividades de aprendizaje en los horarios y en la forma que mejor se adapte a tus necesidades.
-            figure.position-absolute(style="top:-3%; left:-30%").d-none.d-lg-flex.mt-xl-3
+            figure.position-absolute(style="top:-3%; left:-27%").d-none.d-lg-flex.mt-xl-3
               img(src='@/assets/template/tema-0-11.svg', alt='Texto que describa la imagen').w-20.px-3.px-xl-0
         .row.rounded-15.py-4.border-gris.bg-gris-deg.mt-4
           .col-11.col-lg-10.offset-1.offset-lg-2.position-relative.px-4.border-right-amarillo-4
             .h4 Storytelling basado en la vida y experiencia de un emprendedor
             p.mt-3 En la que mediante la narración se presentan de manera integrada los conceptos de la unidad.
-            figure.position-absolute(style="top:0%; left:-30%").d-none.d-lg-flex
+            figure.position-absolute(style="top:0%; left:-27%").d-none.d-lg-flex
               img(src='@/assets/template/tema-0-12.svg', alt='Texto que describa la imagen').w-20.px-3.px-xl-0
         .row.rounded-15.py-4.border-gris.bg-gris-deg.mt-4
           .col-11.col-lg-10.offset-1.offset-lg-2.position-relative.px-4.border-right-azul-4
             .h4 Actividades de interacción
             p.mt-3 En las que podrás construir tu proyecto final fase a fase en cada unidad.
-            figure.position-absolute(style="top:-25%; left:-30%").d-none.d-lg-flex.mt-xl-3
+            figure.position-absolute(style="top:-25%; left:-27%").d-none.d-lg-flex.mt-xl-3
               img(src='@/assets/template/tema-0-13.svg', alt='Texto que describa la imagen').w-20.px-3.px-xl-0
         .row.rounded-15.py-4.border-gris.bg-gris-deg.mt-4
           .col-11.col-lg-10.offset-1.offset-lg-2.position-relative.px-4.border-right-amarillo-4
             .h4 Apoyo del autor
             p.mt-3 Mediante un foro de consultas académicas y técnicas en el que puedes requerir su acompañamiento. 
-            figure.position-absolute(style="top:0%; left:-30%").d-none.d-lg-flex
+            figure.position-absolute(style="top:0%; left:-27%").d-none.d-lg-flex
               img(src='@/assets/template/tema-0-14.svg', alt='Texto que describa la imagen').w-20.px-3.px-xl-0
         .row.rounded-15.py-4.border-gris.bg-gris-deg.mt-4
           .col-11.col-lg-10.offset-1.offset-lg-2.position-relative.px-4.border-right-azul-4
             .h4 Comunidad networking
             p.mt-3 Al que podrás acceder y encontrar colegas, socios o mentores para tus ideas de negocio.
-            figure.position-absolute(style="top:0%; left:-30%").d-none.d-lg-flex
+            figure.position-absolute(style="top:0%; left:-27%").d-none.d-lg-flex
               img(src='@/assets/template/tema-0-15.svg', alt='Texto que describa la imagen').w-20.px-3.px-xl-0
     .row.mt-5
       .col-8.col-md-6.col-lg-4.offset-2.offset-md-3.offset-lg-4.bg-azul-deg.py-2
         .h4.text-center.text-white Requerimientos tecnológicos
     
-    TabsC.color-acento-botones.mt-5
+    TabsC.color-acento-botones.mt-5(data-aos="zoom-in")
       .py-3.py-md-4(titulo="Requisitos o conocimientos informáticos")
         .row
           .col-12.col-lg-6.align-self-center
@@ -171,7 +171,7 @@
                     .col.mb-3.mb-sm-0.px-0
                       h3.mb-1.text-sistema Navegador Google Chrome
                       p.text-small.text-sistema Navegador más usado en la actualidad por su sencillez y rapidez.
-                    .col-sm-auto
+                    .col-sm-auto.me-4
                       a.boton.color-acento-botones(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
                         span Descargar
                         i.fas.fa-file-download
@@ -198,7 +198,7 @@
       a.col-2.mt-4(href="#inicio")
         figure.px-lg-2.px-xl-1
           img(src='@/assets/template/arrow.svg').px-lg-4.px-xl-5
-    .row.mt-5
+    .row.mt-5(data-aos="slide-right")
       .col-12.col-lg-7
         p El proyecto está estructurado en cuatro fases que aportan la construcción de la idea de negocio.
         LineaTiempoD.color-primario.mt-4
@@ -222,12 +222,42 @@
         figure.px-lg-2.px-xl-1
           img(src='@/assets/template/arrow.svg').px-lg-4.px-xl-5
     p.mt-5 En este MOOC se Para obtener el certificado del curso deberás alcanzar un mínimo de 70 puntos de los 100 posibles. El puntaje lo obtienes al completar las siguientes actividades: las siguientes metodologías de trabajo:
-    figure.mt-5.d-none.d-md-flex
-      img(src='@/assets/template/tema-0-22.png', alt='Texto que describa la imagen')
-    .row.mt-4.d-flex.d-md-none
+    .row.mt-5.d-none.d-lg-flex(data-aos="fade-right")
+      .col-3
+        .row.mt-5.px-4
+          .col-12.text-center.rounded-20.box-shadow.px-1
+            figure.px-5.mt-n5.d-none.d-xl-flex
+              img(src='@/assets/template/tema-0-23.svg', alt='Texto que describa la imagen').px-3
+            .h4.mt-4.mt-xl-3 Fase 1
+            p.mt-3.mb-5.px-3 Infografía de las competencias emprendedoras dentro del contexto de oportunidades. - #[strong 10 puntos]
+        .row.mt-5.px-4
+          .col-12.text-center.rounded-20.box-shadow.px-1.mt-5
+            figure.px-5.mt-n5.d-none.d-xl-flex
+              img(src='@/assets/template/tema-0-23.svg', alt='Texto que describa la imagen').px-3
+            .h4.mt-4.mt-xl-3 Fase 2
+            p.mt-3.mb-5.px-3 Publicación de un reel en Instagram de tu idea de negocio – #[strong 10 puntos]
+
+      .col-6
+        figure.d-none.d-md-flex
+          img(src='@/assets/template/tema-0-22.png', alt='Texto que describa la imagen').w-75.margin-0-auto
+      .col-3
+        .row.mt-5.px-4
+          .col-12.text-center.rounded-20.box-shadow.px-1
+            figure.px-5.mt-n5.d-none.d-xl-flex
+              img(src='@/assets/template/tema-0-23.svg', alt='Texto que describa la imagen').px-3
+            .h4.mt-4.mt-xl-3 Fase 3
+            p.mt-3.mb-5.px-3 Canvas de tu idea de negocio con la integración de herramientas digitales –  #[strong 10 puntos]
+        .row.mt-5.px-4
+          .col-12.text-center.rounded-20.box-shadow.px-1.mt-5.pb-4
+            figure.px-5.mt-n5.d-none.d-xl-flex
+              img(src='@/assets/template/tema-0-23.svg', alt='Texto que describa la imagen').px-3
+            .h4.mt-4.mt-xl-3 Fase 4
+            p.mt-3.mb-5.px-3 Elevator Pitch de tu idea de negocio – #[strong 70 puntos]
+    
+    .row.mt-4.d-flex.d-lg-none
       LineaTiempoD.color-primario
         .row(numero="1" titulo="Fase 1")
-          p Infografía de las competencias emprendedoras dentro del contexto de oportunidades.
+          p Infografía de las competencias emprendedoras dentro del contexto de oportunidades. - #[strong 10 puntos]
 
         .row(numero="2" titulo="Fase 2") 
           p Publicación de un reel en Instagram de tu idea de negocio – #[strong 10 puntos]
@@ -246,6 +276,7 @@ export default {
   name: 'Introduccion',
   data: () => ({
     // variables de vue
+    mostrarIndicador: true,
   }),
 }
 </script>
