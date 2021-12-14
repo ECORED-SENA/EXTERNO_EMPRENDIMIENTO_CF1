@@ -19,12 +19,13 @@
             .h4 Ruta de navegación del MOOC
           .col-2.col-lg-2.d-none.d-md-flex.border-top-amarillo.mt-2
           .col-1
-    .row.px-5.mt-n5
+    .row.px-5.mt-n5.indicador__container
       .col-6.col-md-4.col-xl-2.px-4.px-xl-3.indicador__container
         a.boton.row.h-100.px-3.box-shadow.rounded-15.py-3.bg-blanco(href="#navegar")
           figure.px-4.px-xl-3.d-none.d-md-flex
             img(src='@/assets/template/tema-0-2.svg', alt='Texto que describa la imagen').px-5.px-xl-3
           .h4.text-center.px-0.text-small.px-3.mt-2 ¿Cómo navegar este MOOC?
+        .indicador--click
       .col-6.col-md-4.col-xl-2.px-4.px-xl-3
         a.boton.row.h-100.px-3.box-shadow.rounded-15.py-3.bg-blanco(href="#dirigido")
           figure.px-4.px-xl-3.d-none.d-md-flex
