@@ -83,9 +83,9 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro: '',
+        nombre: 'Pepito',
+        cargo: 'Desarrollador',
+        centro: 'Fundación CA',
       },
       {
         nombre: '',
