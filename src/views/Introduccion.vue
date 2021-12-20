@@ -2,7 +2,7 @@
 .curso-main-container.introduccion
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-  
+
     .titulo-principal
       .titulo-principal__numero
         span
@@ -12,7 +12,7 @@
       img(src='@/assets/template/tema-0-1.png', alt='Texto que describa la imagen')
     .row
       .col-12.px-5
-        .row.rounded-15.bg-blanco-deg.pb-5.pt-3.mt-n4   
+        .row.rounded-15.bg-blanco-deg.pb-5.pt-3.mt-n4
           .col-1.col-lg-2
           .col-2.col-lg-2.d-none.d-md-flex.border-top-amarillo.mt-2
           .col-md-6.col-lg-4.text-center.mb-4
@@ -56,8 +56,8 @@
         .h4.text-white Como navegar este MOOC?
       figure.mt-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/4v17ttInhkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
     .row.mt-5#dirigido.mx-0.border-top-gris
       .col-10.col-lg-8.col-xl-7.bg-azul-oscuro.py-2.mt-4.align-self-center
         .h4.text-white ¿A quién va dirigido este MOOC y qué saberes previos requiere?
@@ -75,7 +75,7 @@
             p.mt-3 Buscamos jóvenes que estén motivados a hacer realidad su proyecto y ser emprendedores digitales. Por ello, no se requieren saberes previos.
             .cajon.color-acento-botones.p-4.mt-3
               p Pueden participar bachilleres, técnicos, tecnólogos o profesionales de cualquier núcleo básico del conocimiento.
-    
+
     .row.mt-5#competencia.mx-0.border-top-gris
       .col-10.col-lg-7.col-xl-6.bg-azul-oscuro.py-2.mt-4.align-self-center
         .h4.text-white ¿Cuál es la competencia y propósitos de este MOOC?
@@ -94,7 +94,7 @@
       .col-4.d-none.d-lg-flex
         figure
           img(src='@/assets/template/tema-0-9.png', alt='Texto que describa la imagen')
-    
+
     .row.mt-5#metodologia.mx-0.border-top-gris
       .col-8.col-lg-6.col-xl-4.bg-azul-oscuro.py-2.mt-4.align-self-center
         .h4.text-white  ¿Qué metodología sigue el MOOC?
@@ -128,7 +128,7 @@
         .row.rounded-15.py-4.border-gris.bg-gris-deg.mt-4
           .col-11.col-lg-10.offset-1.offset-lg-2.position-relative.px-4.border-right-amarillo-4
             .h4 Apoyo del autor
-            p.mt-3 Mediante un foro de consultas académicas y técnicas en el que puedes requerir su acompañamiento. 
+            p.mt-3 Mediante un foro de consultas académicas y técnicas en el que puedes requerir su acompañamiento.
             figure.position-absolute(style="top:0%; left:-27%").d-none.d-lg-flex
               img(src='@/assets/template/tema-0-14.svg', alt='Texto que describa la imagen').w-20.px-3.px-xl-0
         .row.rounded-15.py-4.border-gris.bg-gris-deg.mt-4
@@ -140,13 +140,13 @@
     .row.mt-5
       .col-8.col-md-6.col-lg-4.offset-2.offset-md-3.offset-lg-4.bg-azul-deg.py-2
         .h4.text-center.text-white Requerimientos tecnológicos
-    
+
     TabsC.color-acento-botones.mt-5(data-aos="zoom-in")
       .py-3.py-md-4(titulo="Requisitos o conocimientos informáticos")
         .row
           .col-12.col-lg-6.align-self-center
             .h4 Requisitos o conocimientos informáticos
-            p.mt-3 Se recomienda que tengas instalado multimedia/parlantes para poder revisar los contenidos audiovisuales. 
+            p.mt-3 Se recomienda que tengas instalado multimedia/parlantes para poder revisar los contenidos audiovisuales.
           .col-6.d-none.d-lg-flex
             figure
               img(src='@/assets/template/tema-0-16.png', alt='Texto que describa la imagen')
@@ -203,8 +203,8 @@
       .col-12.col-lg-7
         p El proyecto está estructurado en cuatro fases que aportan la construcción de la idea de negocio.
         LineaTiempoD.color-primario.mt-4
-          p.text-small(numero="1" titulo="Fase 1. Soy emprendedor joven") #[strong Evidencia de aprendizaje:] infografía de las competencias emprendedoras dentro del contexto de oportunidades. 
-          
+          p.text-small(numero="1" titulo="Fase 1. Soy emprendedor joven") #[strong Evidencia de aprendizaje:] infografía de las competencias emprendedoras dentro del contexto de oportunidades.
+
           p.text-small(numero="2" titulo="Fase 2. Mi idea de negocio") #[strong Evidencia de aprendizaje:] video de publicación de un reel en Instagram de tu idea de negocio.
 
           p.text-small(numero="3" titulo="Fase 3 Estructurando el Canvas de mi idea de negocio") #[strong Evidencia de aprendizaje:] Canvas de la idea de negocio con la integración de herramientas digitales – 10 puntos.
@@ -215,7 +215,7 @@
           img(src='@/assets/template/tema-0-21.png', alt='Texto que describa la imagen')
     .cajon.color-acento-botones.p-4.mt-4
       p En las unidades 1, 2 y 3  debes entregar las evidencias de aprendizaje como requisito y en la fase 4 te debes concentrar en presentar el video del Elevator Pitch que será retroalimentado al final del curso por el tutor que te acompaña.
-    
+
     .row.mt-5#requisitos.mx-0.border-top-gris
       .col-10.col-lg-7.col-xl-6.bg-azul-oscuro.py-2.mt-4.align-self-center
         .h4.text-white ¿Qué requisitos debo cumplir para certificarme?
@@ -254,13 +254,13 @@
               img(src='@/assets/template/tema-0-23.svg', alt='Texto que describa la imagen').px-3
             .h4.mt-4.mt-xl-3 Fase 4
             p.mt-3.mb-5.px-3 Elevator Pitch de tu idea de negocio – #[strong 70 puntos]
-    
+
     .row.mt-4.d-flex.d-lg-none
       LineaTiempoD.color-primario
         .row(numero="1" titulo="Fase 1")
           p Infografía de las competencias emprendedoras dentro del contexto de oportunidades. - #[strong 10 puntos]
 
-        .row(numero="2" titulo="Fase 2") 
+        .row(numero="2" titulo="Fase 2")
           p Publicación de un reel en Instagram de tu idea de negocio – #[strong 10 puntos]
 
         .row(numero="3" titulo="Fase 3")
@@ -268,7 +268,7 @@
 
         .row(numero="4" titulo="Fase 4")
           p Elevator Pitch de tu idea de negocio – #[strong 70 puntos]
-          
+
 
 </template>
 

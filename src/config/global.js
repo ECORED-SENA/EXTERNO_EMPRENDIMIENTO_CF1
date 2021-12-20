@@ -31,11 +31,11 @@ export default {
       //  icono: 'far fa-folder-open',
       //  titulo: 'Material complementario',
       //},
-      {
-        icono: 'fas fa-book',
-        titulo: 'Referencias bibliográficas',
-        nombreRuta: 'referencias',
-      },
+      //{
+      //  icono: 'fas fa-book',
+      //  titulo: 'Referencias bibliográficas',
+      //  nombreRuta: 'referencias',
+      //},
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
@@ -71,44 +71,34 @@ export default {
     liderEquipo: [
       {
         nombre: 'Maria Camila Garcia Santamaria',
-        cargo: 'Líder del equipo',
+        cargo: 'Líder del equipo SENA',
         centro: 'Dirección General',
       },
     ],
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
+        cargo: 'Asesor metodológico y pedagógico SENA',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Pepito',
-        cargo: 'Desarrollador',
+        nombre: 'Mónica Bibiana Gallego Madrid',
+        cargo: 'Diseñador Instruccional Fundación CA',
         centro: 'Fundación CA',
-      },
-      {
-        nombre: '',
-        cargo: '',
-        centro: '',
       },
     ],
     desarrolloProducto: [
       {
         nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
+        cargo: 'Responsable equipo SENA',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: '',
-        cargo: '',
-        centro: '',
-      },
-      {
-        nombre: '',
-        cargo: '',
-        centro: '',
+        nombre: 'Jhoana Hincapie Herrera',
+        cargo: 'Diseño y desarrollo Fundación CA',
+        centro: 'Fundación CA',
       },
     ],
     gestoresRepositorio: [
