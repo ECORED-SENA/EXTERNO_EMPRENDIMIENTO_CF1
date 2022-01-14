@@ -35,7 +35,7 @@
         a.boton.row.h-100.px-3.box-shadow.rounded-15.py-3.bg-blanco(href="#competencia")
           figure.px-4.px-xl-3.d-none.d-md-flex
             img(src='@/assets/template/tema-0-4.svg', alt='Texto que describa la imagen').px-5.px-xl-3
-          .h4.text-center.px-0.text-small.px-3.mt-2 ¿Cuál es la comptenecia?
+          .h4.text-center.px-0.text-small.px-3.mt-2 ¿Cuál es la competencia?
       .col-6.col-md-4.col-xl-2.px-4.px-xl-3.mt-3.mt-xl-0
         a.boton.row.h-100.px-3.box-shadow.rounded-15.py-3.bg-blanco(href="#metodologia")
           figure.px-4.px-xl-3.d-none.d-md-flex
@@ -53,7 +53,7 @@
           .h4.text-center.px-0.text-small.px-3.mt-2.pb-xl-0 ¿Qué requisitos debo cumplir?
     .row.mt-5#navegar.mx-0
       .col-8.col-md-5.col-lg-4.col-xl-3.bg-azul-oscuro.py-2
-        .h4.text-white Como navegar este MOOC?
+        .h4.text-white Cómo navegar este MOOC?
       figure.mt-5
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/4v17ttInhkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -84,9 +84,9 @@
           img(src='@/assets/template/arrow.svg').px-lg-4.px-xl-5
     .row.mt-5(data-aos="flip-left")
       .col.col-lg-8
-        .h4 Competencia
+        .h4 Propósito
         p.mt-4 Comprende las competencias del emprendedor para construir un modelo de negocio acorde con la tecnología digital seleccionada.
-        .h4.mt-5 Proposito
+        .h4.mt-5 Propósitos
         p.mt-4 Analizar las competencias emprendedoras de acuerdo con los postulados de la UNESCO.
         p.mt-4 Estructurar una idea de negocio coherente con el uso de herramientas digitales.
         p.mt-4 Diseñar un modelo de negocio de acuerdo con la tecnología digital seleccionada.
@@ -125,12 +125,6 @@
             p.mt-3 En las que podrás construir tu proyecto final fase a fase en cada unidad.
             figure.position-absolute(style="top:-25%; left:-27%").d-none.d-lg-flex.mt-xl-3
               img(src='@/assets/template/tema-0-13.svg', alt='Texto que describa la imagen').w-20.px-3.px-xl-0
-        .row.rounded-15.py-4.border-gris.bg-gris-deg.mt-4
-          .col-11.col-lg-10.offset-1.offset-lg-2.position-relative.px-4.border-right-amarillo-4
-            .h4 Apoyo del autor
-            p.mt-3 Mediante un foro de consultas académicas y técnicas en el que puedes requerir su acompañamiento.
-            figure.position-absolute(style="top:0%; left:-27%").d-none.d-lg-flex
-              img(src='@/assets/template/tema-0-14.svg', alt='Texto que describa la imagen').w-20.px-3.px-xl-0
         .row.rounded-15.py-4.border-gris.bg-gris-deg.mt-4
           .col-11.col-lg-10.offset-1.offset-lg-2.position-relative.px-4.border-right-azul-4
             .h4 Comunidad networking
@@ -203,13 +197,13 @@
       .col-12.col-lg-7
         p El proyecto está estructurado en cuatro fases que aportan la construcción de la idea de negocio.
         LineaTiempoD.color-primario.mt-4
-          p.text-small(numero="1" titulo="Fase 1. Soy emprendedor joven") #[strong Evidencia de aprendizaje:] infografía de las competencias emprendedoras dentro del contexto de oportunidades.
+          p.text-small(numero="1" titulo="Fase 1. Soy emprendedor joven") #[strong Evidencia de aprendizaje:] Presentación de las competencias emprendedoras dentro del contexto de oportunidades.
 
-          p.text-small(numero="2" titulo="Fase 2. Mi idea de negocio") #[strong Evidencia de aprendizaje:] video de publicación de un reel en Instagram de tu idea de negocio.
+          p.text-small(numero="2" titulo="Fase 2. Mi idea de negocio") #[strong Evidencia de aprendizaje:] Video de publicación de un reel en Instagram de tu idea de negocio.
 
-          p.text-small(numero="3" titulo="Fase 3 Estructurando el Canvas de mi idea de negocio") #[strong Evidencia de aprendizaje:] Canvas de la idea de negocio con la integración de herramientas digitales – 10 puntos.
+          p.text-small(numero="3" titulo="Fase 3 Estructurando el Canvas de mi idea de negocio") #[strong Evidencia de aprendizaje:] Canvas de la idea de negocio con la integración de herramientas digitales – 10 puntos
 
-          p.text-small(numero="4" titulo="Fase 4 ¡Al ruedo! Presentando mi Elevator Pitch") #[strong Evidencia de aprendizaje:] graba un video con la técnica de Elevator Pitch en el que presentes tu idea de negocio – 70 puntos.
+          p.text-small(numero="4" titulo="Fase 4 ¡Al ruedo! Presentando mi Elevator Pitch") #[strong Evidencia de aprendizaje:] Graba un video con la técnica de Elevator Pitch en el que presentes tu idea de negocio – 70 puntos
       .col-5.d-none.d-lg-flex
         figure
           img(src='@/assets/template/tema-0-21.png', alt='Texto que describa la imagen')
@@ -222,7 +216,7 @@
       a.col-2.mt-4.offset-lg-3.offset-xl-4(href="#inicio")
         figure.px-lg-2.px-xl-1
           img(src='@/assets/template/arrow.svg').px-lg-4.px-xl-5
-    p.mt-5 En este MOOC se Para obtener el certificado del curso deberás alcanzar un mínimo de 70 puntos de los 100 posibles. El puntaje lo obtienes al completar las siguientes actividades: las siguientes metodologías de trabajo:
+    p.mt-5 Para obtener el certificado del curso deberás alcanzar un mínimo de 70 puntos de los 100 posibles. El puntaje lo obtienes al completar las siguientes actividades:
     .row.mt-5.d-none.d-lg-flex(data-aos="fade-right")
       .col-3
         .row.mt-5.px-4
@@ -230,13 +224,13 @@
             figure.px-5.mt-n5.d-none.d-xl-flex
               img(src='@/assets/template/tema-0-23.svg', alt='Texto que describa la imagen').px-3
             .h4.mt-4.mt-xl-3 Fase 1
-            p.mt-3.mb-5.px-3 Infografía de las competencias emprendedoras dentro del contexto de oportunidades. - #[strong 10 puntos]
+            p.mt-3.mb-5.px-3 Presentación de las competencias emprendedoras dentro del contexto de oportunidades - #[strong 10 puntos]
         .row.mt-5.px-4
           .col-12.text-center.rounded-20.box-shadow.px-1.mt-5
             figure.px-5.mt-n5.d-none.d-xl-flex
               img(src='@/assets/template/tema-0-23.svg', alt='Texto que describa la imagen').px-3
             .h4.mt-4.mt-xl-3 Fase 2
-            p.mt-3.mb-5.px-3 Publicación de un reel en Instagram de tu idea de negocio – #[strong 10 puntos]
+            p.mt-3.mb-5.px-3 Infografía de tu idea de negocio – #[strong 10 puntos]
 
       .col-6
         figure.d-none.d-md-flex
