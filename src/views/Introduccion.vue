@@ -53,7 +53,7 @@
           .h4.text-center.px-0.text-small.px-3.mt-2.pb-xl-0 ¿Qué requisitos debo cumplir?
     .row.mt-5#navegar.mx-0
       .col-8.col-md-5.col-lg-4.col-xl-3.bg-azul-oscuro.py-2
-        .h4.text-white Cómo navegar este MOOC?
+        .h4.text-white ¿Cómo navegar este MOOC?
       figure.mt-5
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/4v17ttInhkM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -84,7 +84,7 @@
           img(src='@/assets/template/arrow.svg').px-lg-4.px-xl-5
     .row.mt-5(data-aos="flip-left")
       .col.col-lg-8
-        .h4 Propósito
+        .h4 Competencia
         p.mt-4 Comprende las competencias del emprendedor para construir un modelo de negocio acorde con la tecnología digital seleccionada.
         .h4.mt-5 Propósitos
         p.mt-4 Analizar las competencias emprendedoras de acuerdo con los postulados de la UNESCO.
@@ -199,7 +199,7 @@
         LineaTiempoD.color-primario.mt-4
           p.text-small(numero="1" titulo="Fase 1. Soy emprendedor joven") #[strong Evidencia de aprendizaje:] Presentación de las competencias emprendedoras dentro del contexto de oportunidades.
 
-          p.text-small(numero="2" titulo="Fase 2. Mi idea de negocio") #[strong Evidencia de aprendizaje:] Video de publicación de un reel en Instagram de tu idea de negocio.
+          p.text-small(numero="2" titulo="Fase 2. Mi idea de negocio") #[strong Evidencia de aprendizaje:] Infografía de tu idea de negocio.
 
           p.text-small(numero="3" titulo="Fase 3 Estructurando el Canvas de mi idea de negocio") #[strong Evidencia de aprendizaje:] Canvas de la idea de negocio con la integración de herramientas digitales – 10 puntos
 
